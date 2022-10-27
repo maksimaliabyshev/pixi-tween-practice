@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"target": "ES2021",
+		"jsx": "react",
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"esModuleInterop": true,
+		"lib": [
+			"ESNext",
+			"DOM"
+		],
+		"baseUrl": "./",
+		"paths": {
+			"@assets/*": [
+				"./public/assets/*"
+			],
+			"@helpers/*": [
+				"./src/helpers/*"
+			],
+		},
+		"types": [
+			"vite/client"
+		],
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"vite.config.js",
+		"node_modules",
+		"**/node_modules/*"
+	]
+}

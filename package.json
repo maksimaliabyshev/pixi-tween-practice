@@ -1,17 +1,47 @@
 {
-  "name": "logicjs-pixi-tween-course",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "eslint": "^8.26.0",
-    "pixi.js": "^6.5.8",
-    "prettier": "^2.7.1",
-    "vite": "^3.1.0"
-  }
+	"name": "pixi-tween-practice",
+	"private": true,
+	"version": "0.0.0",
+	"description": "Original autor LogicJs https://github.com/HusakYurii/pixijs-tween-base-course",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"build:gh": "vite build --base=\"pixi-tween-practice/\"",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@pixi/assets": "6.5.8",
+		"@pixi/basis": "6.5.8",
+		"@pixi/compressed-textures": "6.5.8",
+		"@pixi/constants": "6.5.8",
+		"@pixi/core": "6.5.8",
+		"@pixi/display": "6.5.8",
+		"@pixi/extensions": "6.5.8",
+		"@pixi/loaders": "6.5.8",
+		"@pixi/math": "6.5.8",
+		"@pixi/mesh": "6.5.8",
+		"@pixi/runner": "6.5.8",
+		"@pixi/settings": "6.5.8",
+		"@pixi/sprite": "6.5.8",
+		"@pixi/spritesheet": "6.5.8",
+		"@pixi/text": "6.5.8",
+		"@pixi/text-bitmap": "6.5.8",
+		"@pixi/ticker": "6.5.8",
+		"@pixi/utils": "6.5.8",
+		"pixi.js": "6.5.8"
+	},
+	"devDependencies": {
+		"eslint": "^8.26.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-import-resolver-alias": "^1.1.2",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"gh-pages": "^4.0.0",
+		"prettier": "^2.7.1",
+		"vite": "^3.2.0",
+		"vite-jsconfig-paths": "^2.0.1",
+		"vite-plugin-eslint": "^1.8.1"
+	}
 }
